@@ -1,0 +1,3 @@
+<resources>
+    <string name="service_desc">Watches for short-form video feeds (Reels, Shorts, TikTok) and takes small on-device screenshots to detect doomscrolling. Nothing leaves your phone.</string>
+</resources>
