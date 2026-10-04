@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.stopdoomscroll.app-debug-43:/xml_accessibility_config.xml.flat",
+        "source": "com.stopdoomscroll.app-main-45:/xml/accessibility_config.xml"
+    }
+]
