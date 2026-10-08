@@ -23,7 +23,7 @@ object Detector {
     private val TAB_WORDS = listOf("reel", "shorts")
     const val W = 24
     const val H = 48
-
+    
     fun looksLikeFeed(pkg: String, root: AccessibilityNodeInfo): Boolean {
         if (pkg in ALWAYS_FEED) return true
         val q = ArrayDeque<AccessibilityNodeInfo>().apply { add(root) }
@@ -59,3 +59,5 @@ object Detector {
         return (s / a.size).toInt()
     }
 }
+
+//need to finish soon
